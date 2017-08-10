@@ -1,0 +1,205 @@
+/*
+# Developer: Gabriel Alves
+# Twitter: @GabrielsCode
+# Since: 02/08/2017
+*/
+
+/* ====== GENERAL STYLES ====== */
+body{
+	background-color: #e5e5eb;
+}
+
+
+.alignright{
+	float: right;
+
+}
+
+.appbody{
+	background-color: #242830;
+	overflow: hidden;
+}
+
+/******** SIDEBAR ********/
+.sidebar{
+	width: 260px;
+	overflow-y: visible;
+	/*min-height: calc(100vh - 60px);*/
+	background-color: #242830;
+	float: left;
+	font-size: 14.5px;
+	color: #eaeff2;
+}
+.sidebar-header{
+	padding: 10px 20px 10px 20px;
+	height: 80px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.375);
+	color: #8c8c8c;
+}
+.sidebar-header h4{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.sidebar .list-group-item{
+	background-color: rgba(0,0,0,0.2);
+	color: #eaeff2;
+	cursor: ;
+	border-radius: 0;
+	border: none;
+	margin: 0;
+}
+.sidebar .active{
+	background-color: rgba(0,0,0,0.3);
+	border-color: rgba(0,0,0,0.0);
+}
+.badge{
+	float: right;
+}
+.badge-default{
+	background-color: rgba(0,0,0,0.2);
+}
+.sidebar a{
+	color: #eaeff2;
+}
+.sidebar a:hover{
+	color: #eaeff2;
+	text-decoration: none;
+}
+.sidebar a:focus{
+	text-decoration: none;
+}
+
+/******** BODY ********/
+.pricontainer{
+	float: right;
+	width: calc(100% - 260px);
+	background-color: #e5e5eb;
+	min-height: calc(100vh - 59px);
+}
+
+.navbar{
+	background-color: #fff;
+	padding-right: 40px;
+	padding-left: 40px;
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+
+.nav-profpic{
+	height:39px;
+	margin-right: 10px;
+}
+
+.user-menu{
+	margin-top: 8px;
+	border-top: none;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.frameapp{
+	height: calc(100vh - 76px);
+	width: 100%;
+	border: none;
+	background-color: #e5e5eb;
+	overflow-y: scroll;
+}
+#dropdownMenuButton{
+	padding-right: 10px;
+}
+
+/******** FOOTER ********/
+.appfooter{
+	font-size: 10px;
+	padding-top: 2px;
+	text-align: center;
+	color: #8c8c8c;
+	height: 20px;
+	background-color: #141820;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
+/******** PANELS ********/
+.motherpanel{
+	margin: 0px;
+	margin-bottom: 45px;
+	overflow-x: hidden;
+}
+
+@media (min-width: 768px){
+	.leftpanel{
+		padding-right: 7.5px;
+	}
+	.rightpanel{
+		padding-left: 7.5px;
+	}
+}
+@media (max-width: 768px){
+	.panelheader span{
+		visibility: hidden;
+		display: none;
+	}
+}
+.panel{
+	width: 100%;
+	min-height: 200px;
+	background-color: #fff;
+	margin-top: 15px;
+	border-radius: 5px;
+	padding: 20px;
+	min-width: 360px;	
+}
+.panelheader h5{
+	display: inline-block;
+	margin-right: 20px;
+}
+.panelheader span{
+	color: #aaa;
+}
+.panelheader hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/******** CHARTS ********/
+canvas{
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+/******** TABLES ********/
+.tableproc{
+	font-size: 12.5px !important;
+}
+
+.tableproc th, .tableproc td {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.footernavigation{
+}
+
+.page-link{
+    color: #3d4452;
+}
+
+.page-item.active .page-link {
+    z-index: 2;
+    color: #fff;
+    background-color: #242830;
+    border-color: #242830;
+}
+
+.page-link:focus, .page-link:hover {
+    color: #242830;
+    text-decoration: none;
+    background-color: #eceeef;
+    border-color: #ddd;
+}
